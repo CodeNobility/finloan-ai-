@@ -5,17 +5,19 @@ This project aims to build a **Loan Prediction Model** using **Machine Learning*
 
 ## 📂 Dataset Information
 - The dataset contains details about **loan applicants**, such as:
-  - `Gender`
-  - `Married`
-  - `Dependents`
-  - `Education`
-  - `Self_Employed`
-  - `ApplicantIncome`
-  - `CoapplicantIncome`
-  - `LoanAmount`
-  - `Loan_Amount_Term`
-  - `Property_Area`
-  - `Loan_Status` (Target Variable: `Y/N`)
+  - `loan_id`
+  - `no_of_dependents`
+  - `education`
+  - `self_employed`
+  - `income_annum`
+  - `loan_amount`
+  - `loan_term`
+  - `cibil_score`
+  - `residential_assets_value`
+  - `commercial_assets_value`
+  - `luxury_assets_value`
+  - `bank_assets_value`
+  - `Loan_Status` (Target Variable: `Approved/Rejected`)
 
 ## 🔧 Tools & Technologies Used
 - **Programming Language:** Python 🐍  
@@ -51,7 +53,7 @@ This project aims to build a **Loan Prediction Model** using **Machine Learning*
 
 ## 📊 Results & Insights
 - **Model:** Decision Tree  
-- **Accuracy Achieved:** 97.7%  
+- **Accuracy Achieved:** 98.6%  
 
 ## 📢 Credits
 Developed by **Prince Kumar Gupta**  
